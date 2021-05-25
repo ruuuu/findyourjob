@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--!+Tab(->)-->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <!--align-items-center класс бустрапа-->
+      <div class="row align-items-center py-3">
+        <!--py-3 это padding-top:3px-->
+        <div class="col-2">
+          <!--col-2  то есть 2 столбца грида-->
+          <a href="" class="logo-link">
+            <img src="img/logo.svg" width="131" height="30" alt="logo">
+          </a>
+        </div>
+        <div class="col d-flex justify-content-center">
+          <!--justify-content-center" выравнивает флекс элементы о центру-->
+          <nav class="nav">
+            <ul class="menu d-flex">
+              <!--d-flex класс бустарна , для флекс контунера-->
+              <li class="menu-item">
+                <a class="menu-link" href="">Главная</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="">Вакансии</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="">Компании</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-3 d-flex align-items-center justify-content-end">
+          <!--col-3  то есть 3 столбца грида-->
+          <!--justify-content-end, d-flex классы бустрапа-->
+          <a href="#" class="button button-link">Войти</a>
+          <a class="button button-primary">Регистрация</a>
+        </div>
+      </div>
+    </div>
+  </header>
+</body>
+
+</html>
