@@ -1,10 +1,20 @@
 /* https://getbootstrap.com/ */
+*, *:before, *:after{
+  box-sizing: border-box;
+}
+
+
 body{
   font-family: "Fira Sans", sans-serif;
   font-size: 16px;
   color: rgba(17, 18, 56, 1);
   padding: 0;
   margin: 0;
+  
+}
+.header{
+  background-color: #F2F3F6;
+  padding-bottom: 56px;
 }
 
 .menu{
@@ -32,6 +42,17 @@ body{
 .button{
   text-decoration: none;
   display: inline-block; /*чтобы воспринимат паддинги и маргины*/
+  border: none;
+  font-size: 16px;
+}
+
+.button-icon{ /*img*/
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.button-text{
+  vertical-align: middle;
 }
 
 .button-link{
@@ -41,10 +62,100 @@ body{
 }
 
 .button-primary{
-  
   background-color: rgba(26, 117, 232, 1);
   color: rgba(255, 255, 255, 1);
   padding: 15px 30px;
   border-radius: 5px; 
+}
+
+.hero-title{
+  margin-top: 43px; 
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 53px;
+  margin-bottom: 10px;
+}
+
+.hero-text{
+  margin-bottom: 30px;
+  font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 140%;
+}
+
+.input-group{
+  margin-bottom: 30px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid rgba(209, 209, 209, 0.1);
+
+box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
+border-radius: 5px;
+}
+
+.input{/*флекс элемент*/
+  background-color: #fff;
+  border: none;
+  flex-grow: 1; 
+  font-size: 16px;
+  line-height: 19px;
+  padding-left: 15px;
+}
+
+.input:focus{ /*когда кликаем на поле поиска*/
+  outline: none;
+}
+
+.tags-group{
+  padding-left: 20px;
+  color: #b2b2b2;
+}
+
+.tag{
+  color: #b2b2b2;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #B2B2B2;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.section{
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
+.section-title{
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.card{
+  text-decoration: none;
+  color: #111238;
+  background-color: #F2F3F6;
+  border-radius: 10px;
+  width: 166px;
+  padding: 35px;
+  transition: background 0.2s; /*планвость перхода цвета*/
+}
+
+.card:hover{
+  background-color: rgba(26, 117, 232, 1);
+  color:rgba(255, 255, 255, 1);
+  
+}
+
+.card-icon{ /*svg^, в icons.svg убираем у тэга symbol удаляем атрибут  fill*/
+  
+  margin-bottom: 15px;
+}
+
+
+.card:hover .card-icon{
+  fill: #fff;
+  transition: fill 0.2s;
 }
 
