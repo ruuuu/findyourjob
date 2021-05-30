@@ -159,3 +159,88 @@ border-radius: 5px;
   transition: fill 0.2s;
 }
 
+.offer{
+  padding: 30px;
+  border: 1px solid  #B2B2B2;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.offer-image{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border:1px solid #f2f3f6; /**/
+}
+
+.offer-title{
+  margin-left: 20px;
+}
+
+.offer-heading{
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+
+.offer-city{
+  font-size: 14px;
+  line-height: 17px;
+  color: #111238;
+}
+
+.offer-salary{
+  margin-left: 46px;
+  
+  font-weight: 700px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  padding: 10px 25px;
+  background-color: rgba(26, 117, 232, 1);
+  border-radius: 5px;
+}
+
+.tags-group{
+  margin-left: 65px;
+}
+
+.more{
+  margin-left: auto; /*флекс элемент прижмется к парвму краю родителя*/
+  margin-right: 25px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1A75E8;
+  text-decoration: none;
+}
+
+.subscribe{
+  background-color: #F2F3F6;
+}
+
+.subcribe-form{
+  max-width: 460px;
+  margin: auto; /*отцентрет*/
+  text-align: center;
+}
+
+.subcribe-title{
+  font-size: 36px;
+  line-height: 43px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.subscribe-subttile{
+  font-size: 18px;
+  line-height: 25px;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.footer{
+  padding-top: 70px;
+  padding-bottom: 127px;
+}
